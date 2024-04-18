@@ -1233,9 +1233,21 @@ transform: translateX(0);
     padding: 0px 10px;
   
 }
+.con button {
+
+    margin-left: 50px;
+    padding: 10px 70px 5px 70px;
+
 
 
 }
+.con .money{
+
+    margin-left: 50px;
+
+
+
+}}
 
 @media(max-width:624px){
     .part1 {
@@ -1281,6 +1293,7 @@ transform: translateX(0);
     width: 185px;
     text-align: center;
     font-size: large;
+    margin-left: 40px;
 }
 
 .hero{
@@ -1315,6 +1328,13 @@ transform: translateX(0);
 
     font-size: 65px;
 
+}
+.hero button {
+
+    margin-left: 40px;
+}
+.circle {
+    margin-left: 40px;
 }
 
 
