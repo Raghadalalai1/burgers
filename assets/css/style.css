@@ -43,15 +43,10 @@ ul .list-item {
 }
 
 ul .list-item:hover {
-    background-color: #ffcd01;
+    background-color: #ffcc00;
     border-radius: 40px;
 }
-/* ul .list-item:hover a {
-    color: #041825;
-} */
-/* ul .list-item:hover i {
-    color: #041825;
-} */
+
 
 ul .list-item::before {
     position: absolute;
@@ -195,7 +190,7 @@ ul .list-item a {
 .circle2:hover,
 .circle3:hover {
 
-    background-color: #d34110;
+    background-color: #ffcd01;
 }
 
 .cards {
@@ -391,9 +386,7 @@ ul .list-item a {
 }
 
 .our-menu-card1:hover {
-
-    height: 650px;
-
+padding: 20px 0px;
 
 }
 .our-menu-card1:hover img {
@@ -414,15 +407,9 @@ ul .list-item a {
 
 
 .our-menu-card1:hover .btn {
-    display: block;
+    opacity: 1;
 }
 
-/* .our-menu-card1 img:hover {
-    filter: contrast(70%);
-
-
-
-} */
 
 .our-menu-card1::before {
     content: "";
@@ -473,8 +460,8 @@ ul .list-item a {
     padding: 10px 20px 5px 20px;
     border: 1px solid rgb(172, 172, 172);
     transition: 0.5s all ease-in-out;
-    display: none;
     z-index: 10;
+    opacity: 0;
 }
 
 .our-menu-card1 button:hover {
@@ -1300,7 +1287,6 @@ transform: translateX(0);
 @media(max-width:462px){
 .hero h1{
     font-size: x-large;
-    /* width: 330px; */
     width: 100%;
     text-align: center;
 }
@@ -1311,9 +1297,7 @@ transform: translateX(0);
     margin-left: 40px;
 }
 
-.hero{
-    padding-right: 40px;
-}
+
 .con h2::after {
 
     width: 40px;
