@@ -43,15 +43,15 @@ ul .list-item {
 }
 
 ul .list-item:hover {
-    background-color: #ffffff;
+    background-color: #ffcd01;
     border-radius: 40px;
 }
-ul .list-item:hover a {
+/* ul .list-item:hover a {
     color: #041825;
-}
-ul .list-item:hover i {
+} */
+/* ul .list-item:hover i {
     color: #041825;
-}
+} */
 
 ul .list-item::before {
     position: absolute;
