@@ -95,7 +95,8 @@ ul .list-item a {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    padding-top: 120px;
+    padding-top: 130px;
+    /* padding-top: 40px; */
     padding-right: 30px;
     background-image: url(../images/1000_F_557011754_WClRO8OfBkZcGyP6EB7YqBaJ4MuMXizP.jpg);
     background-repeat: no-repeat;
