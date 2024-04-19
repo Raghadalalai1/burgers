@@ -96,7 +96,6 @@ ul .list-item a {
     align-items: center;
     gap: 30px;
     padding-top: 130px;
-    /* padding-top: 40px; */
     padding-right: 30px;
     background-image: url(../images/1000_F_557011754_WClRO8OfBkZcGyP6EB7YqBaJ4MuMXizP.jpg);
     background-repeat: no-repeat;
@@ -1160,19 +1159,6 @@ transform: translateX(0);
     }
     .our-menu-card1{
         margin: 10px;
-    }
-    /* .hero {
-
-        padding-top: 250px;
-        padding-bottom: 13px;
-    
-    } */
-    .hero p {
- padding-top: 40px;
-    
-    
-    
-    
     }
     
 
