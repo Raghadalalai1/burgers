@@ -1161,12 +1161,12 @@ transform: translateX(0);
     .our-menu-card1{
         margin: 10px;
     }
-    /* .hero {
+    .hero {
 
-        padding-top: 250px;
-        padding-bottom: 200px;
+        /* padding-top: 250px; */
+        padding-bottom: 13px;
     
-    } */
+    }
 
 
 }
