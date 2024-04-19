@@ -1249,7 +1249,19 @@ transform: translateX(0);
 
 
 
-}}
+}
+
+.hero {
+
+    padding-top: 180px;
+
+    
+
+
+
+}
+
+}
 
 @media(max-width:624px){
     .part1 {
