@@ -5,13 +5,6 @@
     font-family: Timmana;
 }
 
-header {
-    background-image: url(../images/1000_F_557011754_WClRO8OfBkZcGyP6EB7YqBaJ4MuMXizP.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    
-}
 
 nav {
     display: flex;
@@ -20,6 +13,9 @@ nav {
     flex-wrap: wrap;
     width: 100%;
     box-shadow: 0px 0px 6px 3px black;
+    position: fixed;
+    z-index: 5;
+    background-color: #041825;
 
 }
 .bars{
@@ -47,8 +43,14 @@ ul .list-item {
 }
 
 ul .list-item:hover {
-    background-color: #c92614ad;
+    background-color: #ffffff;
     border-radius: 40px;
+}
+ul .list-item:hover a {
+    color: #041825;
+}
+ul .list-item:hover i {
+    color: #041825;
 }
 
 ul .list-item::before {
@@ -98,8 +100,13 @@ ul .list-item a {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    opacity: 0.9;
+    padding-top: 120px;
     padding-right: 30px;
+    background-image: url(../images/1000_F_557011754_WClRO8OfBkZcGyP6EB7YqBaJ4MuMXizP.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
 
 
 
@@ -147,6 +154,7 @@ ul .list-item a {
 
     color: white;
     background-color: black;
+    cursor: pointer;
 
 }
 
@@ -155,7 +163,7 @@ ul .list-item a {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    /* animation-delay: 2s; */
+   
 
 }
 
@@ -207,16 +215,7 @@ ul .list-item a {
     animation-delay: 2.5s !important;
 }
 
-.cards p:hover {
 
-    font-weight: 600;
-    color: black;
-    text-shadow: 0px 0px 4px white;
-    background-color: white;
-    padding: 10px 10px 5px 10px;
-    border-radius: 20px;
-    opacity: 0.9;
-}
 
 .card1 {
 
@@ -246,7 +245,6 @@ ul .list-item a {
     margin: 100px 0px;
     text-align: center;
     height: 300px;
-    /* border-radius: 10px; */
     padding-bottom: 20px;
     display: flex;
     flex-direction: column;
@@ -266,6 +264,31 @@ ul .list-item a {
 
 
 }
+.card1:hover  p,
+.card2:hover  p,
+.card3:hover  p{
+
+    font-weight: 600;
+    color: black;
+    text-shadow: 0px 0px 4px white;
+    background-color: white;
+    padding: 10px 10px 5px 10px;
+    border-radius: 20px;
+    opacity: 0.9;
+
+
+}
+.card1:hover  h3,
+.card2:hover  h3,
+.card3:hover  h3{
+    color: black;
+    text-shadow: 0px 0px 6px white;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 20px;
+    opacity: 0.9;
+
+}
 
 .cards h3 {
     color: white;
@@ -276,15 +299,7 @@ ul .list-item a {
 
 }
 
-.cards h3:hover {
-    color: black;
-    text-shadow: 0px 0px 6px white;
-    font-weight: 700;
-    padding: 5px 10px;
-    border-radius: 20px;
-    opacity: 0.9;
 
-}
 
 .card2 {
     background: url(../images/best-food-delivery-apps.png) no-repeat center;
@@ -341,6 +356,7 @@ ul .list-item a {
 .our-menu ul li button:hover {
     border: 1px solid #ce3551;
     color: #ce3551;
+    cursor: pointer;
 
 }
 
@@ -370,6 +386,9 @@ ul .list-item a {
     border-radius: 35px;
     transition: 0.5s all ease-in-out !important;
 }
+.our-menu-card1 {
+    transition: 0.5s all ease-in-out !important;
+}
 
 .our-menu-card1:hover {
 
@@ -377,37 +396,33 @@ ul .list-item a {
 
 
 }
+.our-menu-card1:hover img {
+
+
+    filter: contrast(70%);
+
+
+}
 
 .our-menu-card1:hover .hidden {
 
-    display: block;
+    max-height: 170px;
 
 
 
 }
 
-.our-menu-card1 .hidden:hover {
-
-
-    color: black;
-    text-shadow: 0px 0px 7px white;
-
-
-}
 
 .our-menu-card1:hover .btn {
     display: block;
-
-
-
 }
 
-.our-menu-card1 img:hover {
+/* .our-menu-card1 img:hover {
     filter: contrast(70%);
 
 
 
-}
+} */
 
 .our-menu-card1::before {
     content: "";
@@ -440,13 +455,14 @@ ul .list-item a {
 }
 
 .our-menu-card1 .hidden {
-    display: none;
     font-size: small;
     text-align: center;
     color: gray;
     font-weight: 500;
     width: 80%;
     transition: 0.5s all ease-in-out;
+    max-height: 0px;
+    overflow: hidden;
 }
 
 .our-menu-card1 .btn {
@@ -457,7 +473,6 @@ ul .list-item a {
     padding: 10px 20px 5px 20px;
     border: 1px solid rgb(172, 172, 172);
     transition: 0.5s all ease-in-out;
-    /* visibility: hidden; */
     display: none;
     z-index: 10;
 }
@@ -465,6 +480,7 @@ ul .list-item a {
 .our-menu-card1 button:hover {
     background-color: transparent;
     color: #ed5353;
+    cursor: pointer;
 }
 
 .our-menu-card1 p {
@@ -550,14 +566,7 @@ ul .list-item a {
 
 }
 
-.con h2:hover,
-.con h1:hover,
-.con .money p:hover {
-    text-shadow: 0px 0px 5px white;
-    color: black;
 
-
-}
 
 .con h1 {
     font-size: 40px;
@@ -585,6 +594,7 @@ ul .list-item a {
 .con button:hover {
     background-color: rgba(255, 255, 255, 0.877);
     color: #ce3551;
+    cursor: pointer;
 
 
 
@@ -694,6 +704,7 @@ ul .list-item a {
     color: #ce3551;
     background-color: transparent;
     border: 1px solid rgb(182, 182, 182);
+    cursor: pointer;
 }
 
 .servies-cards .servies-card1 p {
@@ -791,7 +802,9 @@ animation-play-state: paused;
 .slide img{
     transition: transform 1s;
     width: 100% ;
-
+    width: 220px ;
+    height: 130px;
+    object-fit: cover;
 
 }
 .slide img:hover{
@@ -1398,7 +1411,6 @@ transform: translateX(0);
 @media(max-width:360px){
 
     .con button {
-        /* margin-left: 50px; */
         padding: 10px 40px 5px 40px;
     }
 
