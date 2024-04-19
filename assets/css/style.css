@@ -1160,6 +1160,12 @@ transform: translateX(0);
     .our-menu-card1{
         margin: 10px;
     }
+    .hero {
+
+        padding-top: 200px;
+        padding-bottom: 50px;
+    
+    }
 
 
 }
@@ -1172,11 +1178,7 @@ transform: translateX(0);
         display: none;
         
     }
-    .hero {
 
-        padding-top: 180px;
-    
-    }
 
 
 }
