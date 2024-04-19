@@ -1172,6 +1172,11 @@ transform: translateX(0);
         display: none;
         
     }
+    .hero {
+
+        padding-top: 180px;
+    
+    }
 
 
 }
@@ -1251,7 +1256,7 @@ transform: translateX(0);
 
 }
 
-.hero {
+/* .hero {
 
     padding-top: 180px;
 
@@ -1259,7 +1264,7 @@ transform: translateX(0);
 
 
 
-}
+} */
 
 }
 
